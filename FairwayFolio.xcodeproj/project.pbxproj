@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9341459D2AE5C322003F46BB /* GolfRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341459C2AE5C322003F46BB /* GolfRound.swift */; };
+		9341459F2AE5C8F7003F46BB /* RoundListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341459E2AE5C8F7003F46BB /* RoundListingView.swift */; };
+		934145A12AE5CBCA003F46BB /* AddRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934145A02AE5CBCA003F46BB /* AddRoundView.swift */; };
+		934145A52AE5DF54003F46BB /* HoleListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934145A42AE5DF54003F46BB /* HoleListingView.swift */; };
+		93A2F2602ACB7B420072BA7A /* FairwayFolio Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 93A2F25F2ACB7B420072BA7A /* FairwayFolio Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93A2F2652ACB7B420072BA7A /* FairwayFolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2F2642ACB7B420072BA7A /* FairwayFolioApp.swift */; };
+		93A2F2672ACB7B420072BA7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2F2662ACB7B420072BA7A /* ContentView.swift */; };
+		93A2F2692ACB7B430072BA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A2F2682ACB7B430072BA7A /* Assets.xcassets */; };
+		93A2F26C2ACB7B430072BA7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A2F26B2ACB7B430072BA7A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93A2F2612ACB7B420072BA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A2F2532ACB7B410072BA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A2F25E2ACB7B420072BA7A;
+			remoteInfo = "FairwayFolio Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93A2F2722ACB7B430072BA7A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				93A2F2602ACB7B420072BA7A /* FairwayFolio Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9341459C2AE5C322003F46BB /* GolfRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfRound.swift; sourceTree = "<group>"; };
+		9341459E2AE5C8F7003F46BB /* RoundListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundListingView.swift; sourceTree = "<group>"; };
+		934145A02AE5CBCA003F46BB /* AddRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoundView.swift; sourceTree = "<group>"; };
+		934145A42AE5DF54003F46BB /* HoleListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleListingView.swift; sourceTree = "<group>"; };
+		93A2F2592ACB7B420072BA7A /* FairwayFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairwayFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A2F25F2ACB7B420072BA7A /* FairwayFolio Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FairwayFolio Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A2F2642ACB7B420072BA7A /* FairwayFolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairwayFolioApp.swift; sourceTree = "<group>"; };
+		93A2F2662ACB7B420072BA7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93A2F2682ACB7B430072BA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93A2F26B2ACB7B430072BA7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A2F25C2ACB7B420072BA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932EAB902ACF1FBD007D7F0A /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Courses;
+			sourceTree = "<group>";
+		};
+		93A2F2522ACB7B410072BA7A = {
+			isa = PBXGroup;
+			children = (
+				93A2F2632ACB7B420072BA7A /* FairwayFolio Watch App */,
+				93A2F25A2ACB7B420072BA7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93A2F25A2ACB7B420072BA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A2F2592ACB7B420072BA7A /* FairwayFolio.app */,
+				93A2F25F2ACB7B420072BA7A /* FairwayFolio Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A2F2632ACB7B420072BA7A /* FairwayFolio Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				932EAB902ACF1FBD007D7F0A /* Courses */,
+				93A2F2642ACB7B420072BA7A /* FairwayFolioApp.swift */,
+				9341459C2AE5C322003F46BB /* GolfRound.swift */,
+				9341459E2AE5C8F7003F46BB /* RoundListingView.swift */,
+				93A2F2662ACB7B420072BA7A /* ContentView.swift */,
+				934145A02AE5CBCA003F46BB /* AddRoundView.swift */,
+				934145A42AE5DF54003F46BB /* HoleListingView.swift */,
+				93A2F2682ACB7B430072BA7A /* Assets.xcassets */,
+				93A2F26A2ACB7B430072BA7A /* Preview Content */,
+			);
+			path = "FairwayFolio Watch App";
+			sourceTree = "<group>";
+		};
+		93A2F26A2ACB7B430072BA7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93A2F26B2ACB7B430072BA7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93A2F2582ACB7B420072BA7A /* FairwayFolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A2F2732ACB7B430072BA7A /* Build configuration list for PBXNativeTarget "FairwayFolio" */;
+			buildPhases = (
+				93A2F2572ACB7B420072BA7A /* Resources */,
+				93A2F2722ACB7B430072BA7A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A2F2622ACB7B420072BA7A /* PBXTargetDependency */,
+			);
+			name = FairwayFolio;
+			productName = FairwayFolio;
+			productReference = 93A2F2592ACB7B420072BA7A /* FairwayFolio.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		93A2F25E2ACB7B420072BA7A /* FairwayFolio Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A2F26F2ACB7B430072BA7A /* Build configuration list for PBXNativeTarget "FairwayFolio Watch App" */;
+			buildPhases = (
+				93A2F25B2ACB7B420072BA7A /* Sources */,
+				93A2F25C2ACB7B420072BA7A /* Frameworks */,
+				93A2F25D2ACB7B420072BA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FairwayFolio Watch App";
+			productName = "FairwayFolio Watch App";
+			productReference = 93A2F25F2ACB7B420072BA7A /* FairwayFolio Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A2F2532ACB7B410072BA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					93A2F2582ACB7B420072BA7A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					93A2F25E2ACB7B420072BA7A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 93A2F2562ACB7B410072BA7A /* Build configuration list for PBXProject "FairwayFolio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93A2F2522ACB7B410072BA7A;
+			productRefGroup = 93A2F25A2ACB7B420072BA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A2F2582ACB7B420072BA7A /* FairwayFolio */,
+				93A2F25E2ACB7B420072BA7A /* FairwayFolio Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A2F2572ACB7B420072BA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A2F25D2ACB7B420072BA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A2F26C2ACB7B430072BA7A /* Preview Assets.xcassets in Resources */,
+				93A2F2692ACB7B430072BA7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A2F25B2ACB7B420072BA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934145A12AE5CBCA003F46BB /* AddRoundView.swift in Sources */,
+				93A2F2672ACB7B420072BA7A /* ContentView.swift in Sources */,
+				93A2F2652ACB7B420072BA7A /* FairwayFolioApp.swift in Sources */,
+				934145A52AE5DF54003F46BB /* HoleListingView.swift in Sources */,
+				9341459F2AE5C8F7003F46BB /* RoundListingView.swift in Sources */,
+				9341459D2AE5C322003F46BB /* GolfRound.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93A2F2622ACB7B420072BA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A2F25E2ACB7B420072BA7A /* FairwayFolio Watch App */;
+			targetProxy = 93A2F2612ACB7B420072BA7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93A2F26D2ACB7B430072BA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93A2F26E2ACB7B430072BA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93A2F2702ACB7B430072BA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FairwayFolio Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FairwayFolio;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.FairwayFolio.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		93A2F2712ACB7B430072BA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FairwayFolio Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FairwayFolio;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.FairwayFolio.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		93A2F2742ACB7B430072BA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				INFOPLIST_KEY_CFBundleDisplayName = FairwayFolio;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.FairwayFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93A2F2752ACB7B430072BA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				INFOPLIST_KEY_CFBundleDisplayName = FairwayFolio;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.FairwayFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A2F2562ACB7B410072BA7A /* Build configuration list for PBXProject "FairwayFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2F26D2ACB7B430072BA7A /* Debug */,
+				93A2F26E2ACB7B430072BA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A2F26F2ACB7B430072BA7A /* Build configuration list for PBXNativeTarget "FairwayFolio Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2F2702ACB7B430072BA7A /* Debug */,
+				93A2F2712ACB7B430072BA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A2F2732ACB7B430072BA7A /* Build configuration list for PBXNativeTarget "FairwayFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2F2742ACB7B430072BA7A /* Debug */,
+				93A2F2752ACB7B430072BA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A2F2532ACB7B410072BA7A /* Project object */;
+}
